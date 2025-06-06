@@ -1,0 +1,49 @@
+Moverse en directorios
+cd -> ver el directorio en el que estamos 
+cd NombreDirectorio -> cambiar a el directorio NombreDirectorio
+cd .. -> regresar al directorio anterior
+cd tura de archivo -> ir a una ruta especifica
+cd/ -> directorio raíz
+Creación De Directorios
+mkdir "Nombre Directorio" -> crear directorio
+Borrar Un Directorio
+rmdir "Nombre Directorio" -> eliminar el directorio
+rmdir /s /q "Nombre Directorio" -> /s → Elimina todos los archivos y subdirectorios dentro. /q → Sin confirmación
+
+Listar el contenido 
+dir
+Solo Carpetas dir /ad
+Archivos ocultos dir /a
+
+Copiar Archivos
+copy archivo.txt copia_archivo.txt
+copy archivo.txt C:\Destino\
+
+Eliminar archivo
+del archivo.txt
+Eliminar todos los archivos dentro de un directorio
+del /s /q *.*
+
+COMPILAR
+javac -d bin -sourcepath src src/presentation/*.java
+
+EJECTUTAR
+java presentation.CityGUI
+
+JAVADOC
+
+C:\Program Files\Java\jdk-24\bin
+"C:\Program Files\Java\jdk-24\bin\javadoc" -d docs -sourcepath src -subpackages presentation:domain
+
+Test
+Compilar
+javac -d bin -cp "bin;lib/*" src/Test/*.java
+Ejecutar
+java -cp "bin;lib/*" org.junit.platform.console.ConsoleLauncher --class-path bin --scan-class-path
+
+EMPAQUETAR
+jar cfe schelling.jar presentation.CityGUI -C bin .
+VERIFICAR
+jar tf schelling.jar
+EJECUTAR
+java -jar schelling.jar

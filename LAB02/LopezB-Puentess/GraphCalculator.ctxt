@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GraphCalculator
+comment0.text=\ Graph\ Calculator\r\n\ \r\n\ @Juan\ Sebastian\ Puentes\ Julio\ and\ Julian\ Camilo\ Lopez\ Barrero\r\n
+comment1.params=
+comment1.target=GraphCalculator()
+comment2.params=nombre
+comment2.target=void\ create(java.lang.String)
+comment3.params=graph\ vertices\ edges
+comment3.target=void\ assign(java.lang.String,\ java.lang.String[],\ java.lang.String[][])
+comment4.params=graph
+comment4.target=Graph\ getGraph(java.lang.String)
+comment5.params=a\ b\ op\ vertices
+comment5.target=void\ assignUnary(java.lang.String,\ java.lang.String,\ char,\ java.lang.String[])
+comment6.params=a\ b\ op\ c
+comment6.target=void\ assignBinary(java.lang.String,\ java.lang.String,\ char,\ java.lang.String)
+comment7.params=graph
+comment7.target=java.lang.String\ toString(java.lang.String)
+comment8.params=
+comment8.target=boolean\ ok()
+numComments=9

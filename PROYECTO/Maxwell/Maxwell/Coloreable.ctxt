@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Coloreable
+comment1.params=color\ xPosition\ yPosition\ vx\ vy\ isRed
+comment1.target=Coloreable(java.lang.String,\ int,\ int,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Coloreable.\r\n
+comment2.params=
+comment2.target=void\ changeColor()
+comment2.text=\r\n\ Changes\ Coloreable\ color.\r\n
+comment3.params=isInLeftSide\ minXLeftBoard\ maxXLeftBoard\ minXRightBoard\ maxXRightBoard\ minY\ maxY
+comment3.target=void\ checkCollision(boolean,\ int,\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ Checks\ particle\ collision.\r\n\ @param\ isInLeftSide\ true\ if\ is\ in\ left\ side\ of\ the\ board.\r\n\ @param\ minXLeftBoard\ min\ x.\r\n\ @param\ maxXLeftBoard\ max\ x\ of\ left\ board.\r\n\ @param\ minXRightBoard\ min\ x\ of\ right\ board.\r\n\ @param\ maxXRightBoard\ max\ x\ of\ right\ board.\r\n\ @param\ minY\ minimum\ y.\r\n\ @param\ maxY\ maximum\ y.\r\n
+numComments=4

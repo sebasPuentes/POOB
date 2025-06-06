@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Movil
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Movil\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=xPosition\ yPosition\ height\ width\ maxParticles
+comment1.target=Movil(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Movil\r\n
+comment2.params=isInLeft\ minX\ maxXLeftBoard\ minXRightBoard\ maxXRightBoard\ minY\ maxY
+comment2.target=void\ checkHoleCollision(boolean,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Checks\ Hole\ Collision.\r\n\ @param\ boolean\ isInLeft.\r\n\ @param\ int\ minX.\r\n\ @param\ int\ maxXLeftBoard.\r\n\ @param\ int\ minXRightBoard.\r\n\ @param\ int\ maxXRightBoard.\r\n\ @param\ int\ minY.\r\n\ @param\ int\ maxY.\r\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\r\n\ Moves\ movil\ demon.\r\n
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=\r\n\ Stops\ demons\ move.\r\n
+numComments=5

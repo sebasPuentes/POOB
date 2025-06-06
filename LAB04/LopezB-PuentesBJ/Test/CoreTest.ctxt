@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CoreTest
+comment1.params=
+comment1.target=void\ shouldCalculateTheCreditsOfACoreCostume()
+comment2.params=
+comment2.target=void\ shouldThrowExceptionIfCoreHasNoCourse()
+comment3.params=
+comment3.target=void\ shouldThrowExceptionIfThereIsErrorInCredits()
+comment4.params=
+comment4.target=void\ shouldThrowExceptionIfCreditsIsNotKnown()
+numComments=5

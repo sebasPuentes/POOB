@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Katalan
+comment0.text=\r\n\ Katalan\ .\r\n\ \r\n\ @author\ (Juan\ Sebastian\ Puentes\ y\ Julian\ Camilo\ Lopez)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=city\ row\ column
+comment1.target=Katalan(City,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Katalan\r\n
+comment2.params=
+comment2.target=void\ decide()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=boolean\ isItemsAround()
+comment3.text=\r\n\ Checks\ if\ there\ exists\ items\ around\ the\ item.\ If\ exists\ then\ return\ true.\r\n
+comment4.params=
+comment4.target=void\ moveKatalan()
+comment4.text=\r\n\ Move\ the\ item\ diagonally\ to\ the\ right.\r\n
+numComments=5

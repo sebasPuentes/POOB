@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MaxwellContest
+comment0.text=\r\n\ MaxwellContest.\r\n\ \r\n\ @author\ (Juan\ Sebastian\ Puentes\ Julio\ y\ Julian\ Camilo\ Lopez\ Barrero\ y\ IA)\ \r\n\ @version\ (4/03/2025)\r\n
+comment1.params=yPosition\ heightChamber
+comment1.target=double\ reflect(double,\ double)
+comment2.params=px\ py\ vx\ vy\ w\ h\ d
+comment2.target=double\ minTime(double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment3.params=w\ h\ d\ r\ b\ particles
+comment3.target=java.lang.String\ solve(int,\ int,\ double,\ int,\ int,\ int[][])
+comment4.params=h\ w\ d\ b\ r\ particles
+comment4.target=void\ simulate(int,\ int,\ int,\ int,\ int,\ int[][])
+comment4.text=\r\n\ Method\ To\ Simulate\ The\ Maxwell\ Container\ Problem\r\n\ @param\ h\ height\ of\ the\ Chamber\r\n\ @param\ w\ width\ of\ the\ Chamber\r\n\ @param\ d\ demons\r\n\ @b\ particles\ blue\r\n\ @r\ particles\ red\ \r\n\ @particles\ the\ particles\ we\ want\ with\ his\ position\ and\ velocity\r\n
+numComments=5

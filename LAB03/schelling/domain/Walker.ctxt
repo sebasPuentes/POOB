@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Walker
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Walker\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=city\ row\ column
+comment1.target=Walker(City,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Walker\r\n
+comment2.params=
+comment2.target=int\ shape()
+comment2.text=\r\n\ Returns\ the\ Walker\ Shape.\r\n\ @return\ SQUARE\ int.\r\n
+comment3.params=
+comment3.target=void\ decide()
+comment3.text=\r\n\ Checks\ items\ around\ and\ then\ moves.\r\n
+comment4.params=
+comment4.target=void\ checkItemsAround()
+comment4.text=\r\n\ Checks\ if\ there\ exists\ items\ around\ the\ walker.\ If\ exists\ then\ his\ state\ turns\ happy.\r\n
+comment5.params=
+comment5.target=void\ move()
+comment5.text=\r\n\ Moves\ the\ walker\ only\ to\ the\ north.\r\n
+numComments=6

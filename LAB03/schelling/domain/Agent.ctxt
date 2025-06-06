@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Agent
+comment1.params=
+comment1.target=Agent()
+comment1.text=Create\ a\ new\ Agent\r\n\ \r\n
+comment2.params=
+comment2.target=void\ step()
+comment2.text=The\ Agent\ makes\ one\ step\r\n\ \r\n
+comment3.params=
+comment3.target=char\ getState()
+comment3.text=\r\n\ Returns\ state\ of\ the\ agent.\r\n
+comment4.params=
+comment4.target=int\ getSteps()
+comment4.text=Returns\ the\ step\r\n\ \ \ \ @return\ \r\n
+comment5.params=
+comment5.target=boolean\ isAgent()
+comment5.text=It's\ an\ agent\r\n
+comment6.params=
+comment6.target=boolean\ isHappy()
+comment6.text=Returns\ if\ happy\r\n\ \ \ \ @return\ true,\ if\ HAPPY;\ false,\ otherwise\r\n
+comment7.params=
+comment7.target=boolean\ isIndifferent()
+comment7.text=Returns\ if\ indifferent\r\n\ \ \ \ @return\ true,\ if\ INDIFFERENT;\ false,\ otherwise\r\n
+comment8.params=
+comment8.target=boolean\ isDissatisfied()
+comment8.text=Returns\ if\ dissatisfied\r\n\ \ \ \ @return\ true,\ if\ DISSATISFIED;\ false,\ otherwise\r\n
+numComments=9

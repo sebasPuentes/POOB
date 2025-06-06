@@ -7,87 +7,164 @@ import javax.swing.JPanel;
 public class Maxwell extends JPanel {
 
     private JPanel Panel;
-    private static Color color1 = Color.RED;
-    private static Color color2 = Color.BLUE;
-    private static final Color Hole = Color.GRAY;
+    public static Color color1 = Color.RED;  
+    public static Color color2 = Color.BLUE; 
+    private static final Color HOLE = Color.GRAY; 
 
-    private int h;
-    private int w;
+    private int height;  
+    private int width;   
 
-    
-    private  int[] hoyos;
-    private  int[] particulasRed;
-    private  int[] ParticulasBlue;
-    private  int[] midWall;
+    private int[] holes;        
+    private int[] redParticles; 
+    private int[] blueParticles; 
+    private int[] midWall;      
 
-    public Maxwell(int newH, int newW,int [][] info ){
-        this(newH,newW);
-        setVariables(info);
+    /**
+     * Constructor for creating a Maxwell object with specified grid size and data.
+     * @param newH The height of the grid.
+     * @param newW The width of the grid.
+     * @param data A 2D array containing the particle, hole, and wall data.
+     */
+    public Maxwell(int newH, int newW, int[][] data) {
+        this(newH, newW);
+        setData(data);
         paintComponents();
     }
 
-    public Maxwell(int newH, int newW){
-        h = newH;
-        w = newW;
-        setLayout(new GridLayout(1,1));
+    /**
+     * Constructor for creating a Maxwell object with specified grid size.
+     * @param newH The height of the grid.
+     * @param newW The width of the grid.
+     */
+    public Maxwell(int newH, int newW) {
+        height = newH;
+        width = newW;
+        setLayout(new GridLayout(1, 1));
         setSize(getWidth(), getHeight());
-        setBorder(BorderFactory.createLineBorder(Color.BLACK,4));
+        setBorder(BorderFactory.createLineBorder(Color.BLACK, 4));
         prepareElements();
     }
 
-    public Maxwell(int[][] info){
-        this(11,20);
-        setVariables(info);
+    /**
+     * Constructor for creating a Maxwell object 
+     * @param data A 2D array containing the particle, hole, and wall data.
+     */
+    public Maxwell(int[][] data) {
+        this(11, 20);
+        setData(data);
         paintComponents();
     }
 
-    private void setVariables(int[][] info){
-        ParticulasBlue = info[0];
-        particulasRed = info[1];
-        hoyos = info[2];
-        midWall = info[3];
+    /**
+     * Sets the data for the particles, holes, and mid-wall positions.
+     * @param data A 2D array containing the particle, hole, and wall data.
+     */
+    private void setData(int[][] data) {
+        blueParticles = data[0];
+        redParticles = data[1];
+        holes = data[2];
+        midWall = data[3];
     }
 
-    private void prepareElements(){
-        Panel = new JPanel(new GridLayout(h, (2*w)+1));
-        for (int i = 0; i < h * ((2*w)+1); i++) {
-            JPanel celd = new JPanel();
-            Panel.add(celd);
+    /**
+     * Prepares the elements of the grid
+     */
+    private void prepareElements() {
+        Panel = new JPanel(new GridLayout(height, (2 * width) + 1));
+        for (int i = 0; i < height * ((2 * width) + 1); i++) {
+            JPanel celda = new JPanel();
+            Panel.add(celda);
         }
         Panel.setBorder(getBorder());
         add(Panel);
     }
 
-    public void paintComponents(){
-        paintCenter();
-        for (int num:ParticulasBlue){
+    /**
+     * Paints the components
+     */
+    public void paintComponents() {
+        paintMidWall();
+        for (int num : blueParticles) {
             Panel.getComponent(num).setBackground(color2);
         }
-        for(int num:particulasRed){
+        for (int num : redParticles) {
             Panel.getComponent(num).setBackground(color1);
         }
-        for(int num: hoyos){
-            Panel.getComponent(num).setBackground(Hole);
-        }
-        
-    }
-
-    private void paintCenter(){ //451
-        int variable = h*((2*w) +1);
-        int centroPar = (h/2) * (2 * w + 1) + w;
-        for(int i: midWall){
-            Panel.getComponent(i).setBackground(Color.BLACK);
-            if((int) variable/2 == i){
-                Panel.getComponent(i).setBackground(Color.GRAY);
-            }
-            if (i == centroPar){
-                Panel.getComponent(i).setBackground(Color.GRAY);
-            }
-            else if (i == centroPar){
-                Panel.getComponent(i).setBackground(Color.GRAY);
-            }
+        for (int num : holes) {
+            Panel.getComponent(num).setBackground(HOLE);
         }
     }
-    
 
+    /**
+     * Repaints the components
+     */
+    public void rePaintComponents() {
+        for (int i = 0; i < Panel.getComponentCount(); i++) {
+            Panel.getComponent(i).setBackground(Color.WHITE);
+        }
+
+        paintMidWall();
+
+        for (int num : blueParticles) {
+            Panel.getComponent(num).setBackground(color2);
+        }
+
+        for (int num : redParticles) {
+            Panel.getComponent(num).setBackground(color1);
+        }
+
+        for (int num : holes) {
+            Panel.getComponent(num).setBackground(HOLE);
+        }
+    }
+
+    /**
+     * Paints the mid-wall 
+     */
+    private void paintMidWall() {
+        int totalCells = height * (2 * width + 1);
+        int centerIndex = (height / 2) * (2 * width + 1) + width;
+        for (int i : midWall) {
+            if (i >= 0 && i < totalCells) {
+                if (i == centerIndex) {
+                    Panel.getComponent(i).setBackground(Color.GRAY);
+                } else {
+                    Panel.getComponent(i).setBackground(Color.BLACK);
+                }
+            }
+        }
+    }
+
+    /**
+     * Sets the background color of all cells in the grid to white.
+     */
+    private void setBackground() {
+        Component[] componentesDer = Panel.getComponents();
+        for (int i = 0; i < componentesDer.length; i++) {
+            componentesDer[i].setBackground(Color.WHITE);
+        }
+    }
+
+    /**
+     * Refreshes the grid with new data
+     * @param info A 2D array containing the updated particle, hole, and wall data.
+     */
+    public void refresh(int[][] info) {
+        setBackground();
+        setData(info);
+        paintMidWall();
+        paintComponents();
+        Panel.revalidate();
+        Panel.repaint();
+        revalidate();
+        repaint();
+    }
+
+    /**
+     * Resets the particle colors to the default 
+     */
+    public void resetColors() {
+        color1 = Color.RED;
+        color2 = Color.BLUE;
+    }
 }

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Schelling
+comment0.text=\r\n\ \ Schelling.\r\n\ \r\n\ @author\ (Julian\ Camilo\ Lopez\ y\ Juan\ Sebastian\ Puentes\ Julio)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=city\ row\ column
+comment1.target=Schelling(City,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Schelling.\r\n
+comment2.params=
+comment2.target=void\ decide()
+comment2.text=\r\n\ Verifys\ and\ moves\ Schelling.\r\n
+numComments=3

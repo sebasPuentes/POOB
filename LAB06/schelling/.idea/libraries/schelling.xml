@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="schelling">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/schelling.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

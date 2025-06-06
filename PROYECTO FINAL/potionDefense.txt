@@ -1,0 +1,47 @@
+public void gainDefense(int amount) {
+        defense += amount;
+    }
+
+@Test
+    public void shouldPokemonGainDefense(){
+        Trainer  mimilon = new Trainer("Mimilon", Color.BLUE);
+        Pokemon machampCopy = machamp.copy();
+        DefensePotion defensePotion = new DefensePotion();
+        mimilon.addItem(defensePotion);
+        mimilon.addPokemon(machampCopy);
+        int initialDefense = machampCopy.getDefense();
+        System.out.println(initialDefense);
+        try{
+            mimilon.useItem(machampCopy, defensePotion);
+        }catch(POOBkemonException e){
+            fail();
+        }
+        int finalDefense = machampCopy.getDefense();
+        System.out.println(finalDefense);
+        assertTrue(finalDefense > initialDefense, "La defensa debería aumentar después de usar la poción defensiva");
+    }
+
+package domain;
+
+import java.io.Serializable;
+
+public class DefensePotion extends Potion implements Serializable {
+    private static final int DEFENSE_BOOST = 100;
+
+    public DefensePotion() {
+        super("Defense Potion", "Increases defense by : " + DEFENSE_BOOST);
+    }
+
+    @Override
+    public void use(Pokemon target) throws POOBkemonException{
+        if (target.isFainted()) {
+            throw new POOBkemonException(POOBkemonException.INVALID_ITEM_TO_USE);
+        }
+        target.gainDefense(DEFENSE_BOOST);
+    }
+}
+
+public Potion(String name, String description) {
+        super(name, description);
+        this.healAmount = 0;
+    }

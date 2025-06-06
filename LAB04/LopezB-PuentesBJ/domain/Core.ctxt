@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Core
+comment1.params=code\ name\ inPersonPercentage
+comment1.target=Core(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ core\ unit\r\n\ @param\ code\r\n\ @param\ name\r\n\ @param\ credits\ \r\n
+comment2.params=c
+comment2.target=void\ addCourse(Course)
+comment2.text=\r\n\ Add\ a\ new\ course\r\n\ @param\ s\r\n
+comment3.params=
+comment3.target=int\ credits()
+comment3.text=\r\n\ Calculates\ the\ total\ number\ of\ credits\ for\ all\ courses\ in\ this\ unit.\r\n\ @return\ The\ total\ number\ of\ credits\ for\ this\ unit.\r\n\ @throws\ Plan15Exception\ IMPOSSIBLE\ If\ the\ total\ number\ of\ credits\ is\ 0,\ \ \ \ \ \ \r\n
+comment4.params=
+comment4.target=int\ inPerson()
+comment5.params=
+comment5.target=int\ creditsEstimated()
+comment5.text=\r\n\ Calculate\ the\ actual\ or\ estimated\ credits\ \r\n\ If\ necessary\ (unknown\ or\ error),\ assumes\ the\ number\ of\ credits\ is\ 3\ \r\n\ is\ equal\ to\ the\ in-person\ hours.\r\n\ @return\ the\ estimated\ credits\ \r\n\ @throws\ Plan15Exception\ IMPOSSIBLE,\ If\ there\ are\ no\ credits\ \r\n
+comment6.params=
+comment6.target=int\ inPersonEstimated()
+comment6.text=\r\n\ Calculate\ the\ estimated\ in-person\ hours,\ considering\ courses\ that\ do\ not\ have\ credit\ issues.\ \r\n\ If\ the\ hours\ of\ a\ course\ are\ not\ known,\ calculate\ the\ course\ in-person\ hours\ using\ the\ percentage\ suggested\ in\ the\ unit\ core.\r\n\ If\ the\ hours\ of\ a\ course\ are\ incorrect,\ it\ is\ assumed\ that\ all\ the\ time\ is\ in\ person.\ \r\n\ @return\ the\ estimated\ hours\ per\ person\r\n\ @throws\ Plan15Exception\ IMPOSSIBLE,\ If\ there\ are\ no\ courses\ or\ all\ courses\ has\ credit\ issues\r\n
+comment7.params=
+comment7.target=java.lang.String\ data()
+numComments=8

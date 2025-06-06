@@ -1,0 +1,6 @@
+Light 5 6
+Person 6 7
+Walker 7 0
+Katalan 9 9
+Schelling 10 11
+Identifier 8 8

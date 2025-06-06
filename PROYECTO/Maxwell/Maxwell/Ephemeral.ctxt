@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Ephemeral
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ephemeral\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=color\ xPosition\ yPosition\ vx\ vy\ isRed
+comment1.target=Ephemeral(java.lang.String,\ int,\ int,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Ephemeral\r\n
+comment2.params=isInLeftSide\ minXLeftBoard\ maxXLeftBoard\ minXRightBoard\ maxXRightBoard\ minY\ maxY
+comment2.target=void\ checkCollision(boolean,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Checks\ particle\ collision.\r\n\ @param\ isInLeftSide\ true\ if\ is\ in\ left\ side\ of\ the\ board.\r\n\ @param\ minXLeftBoard\ min\ x.\r\n\ @param\ maxXLeftBoard\ max\ x\ of\ left\ board.\r\n\ @param\ minXRightBoard\ min\ x\ of\ right\ board.\r\n\ @param\ maxXRightBoard\ max\ x\ of\ right\ board.\r\n\ @param\ minY\ minimum\ y.\r\n\ @param\ maxY\ maximum\ y.\r\n
+numComments=3

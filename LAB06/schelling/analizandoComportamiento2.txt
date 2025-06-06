@@ -1,0 +1,14 @@
+Light 0 0
+Identifier 0 10
+Light 0 24
+Person 10 10
+Schelling 14 23
+Person 14 24
+Person 15 15
+Walker 15 16
+Person 15 22
+Schelling 15 23
+Katalan 16 15
+Katalan 20 10
+Walker 21 10
+Identifier 24 14

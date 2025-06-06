@@ -1,0 +1,25 @@
+cd directorio ---> accede a la siguiente carpeta.
+cd.. ---> devolverse
+
+mkdir NombreCarpeta ---> crear carpeta
+
+dir*. ---> Muestra el Contenido,
+
+xcopy *.class direccion donde lo vas a pegar ---> COPIAR
+
+javac -d bin -sourcepath src src/presentation/ * .java ---> COMPILAR
+
+javadoc -d docs -cp src -subpackages presentation domain ---> DOCUMENTACION
+
+java -cp bin presentation.CityGUI ---> EJECUTAR
+
+java -cp "bin;lib/*" org.junit.platform.console.ConsoleLauncher --class-path bin --scan-class-path ---> PRUEBAS
+
+.JAR-------------------------------------------------
+
+EMPAQUETAR
+jar cfe schelling.jar presentation.CityGUI -C bin .
+VERIFICAR
+jar tf schelling.jar
+EJECUTAR
+java -jar schelling.jar

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Weak
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Weak\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=xPos\ yPos
+comment1.target=Weak(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Weak\r\n
+comment2.params=p
+comment2.target=boolean\ isInRight(Particles)
+comment2.text=\r\n\ Verifys\ for\ right\ particles\ the\ access\ for\ left\ chamber.\r\n\ @param\ p\ Particles.\r\n\ @return\ boolean.\r\n
+comment3.params=p
+comment3.target=boolean\ isInLeft(Particles)
+comment3.text=\r\n\ Verifys\ for\ left\ particles\ the\ access\ for\ right\ chamber.\r\n\ @param\ p\ Particles.\r\n\ @return\ boolean.\r\n
+comment4.params=
+comment4.target=boolean\ canCross()
+comment4.text=\r\n\ Verifys\ if\ more\ particles\ can\ cross\ Weak\ Demon.\r\n
+numComments=5

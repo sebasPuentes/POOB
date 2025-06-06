@@ -1,0 +1,170 @@
+Project documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-6-sun-1.6.0.26/bin/javadoc
+-sourcepath
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit.jar:/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos
+-d
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc
+-source
+1.6
+-doctitle
+poligonos
+-windowtitle
+poligonos
+-link
+http://java.sun.com/javase/6/docs/api/
+-author
+-version
+-nodeprecated
+-package
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/InterfazPoligonos.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Punto.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Angulo.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/TableroPoligonos.java
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java
+<---- end of javadoc command ---->
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/InterfazPoligonos.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Punto.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Angulo.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/TableroPoligonos.java...
+Loading source file /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java...
+Constructing Javadoc information...
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:1: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:2: package org.junit does not exist
+import org.junit.After;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:3: package org.junit does not exist
+import org.junit.Before;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:4: package org.junit does not exist
+import org.junit.Test;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:1: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:2: package org.junit does not exist
+import org.junit.After;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:3: package org.junit does not exist
+import org.junit.Before;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:4: package org.junit does not exist
+import org.junit.Test;
+                ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:22: cannot find symbol
+symbol  : class Before
+location: class AnguloTest
+    @Before
+     ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:44: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:66: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:81: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:95: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:110: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:124: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:140: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:154: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:166: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:219: cannot find symbol
+symbol  : class Test
+location: class AnguloTest
+	@Test
+	 ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:231: cannot find symbol
+symbol  : class After
+location: class AnguloTest
+    @After
+     ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:22: cannot find symbol
+symbol  : class Before
+location: class PuntoTest
+    @Before
+     ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:54: cannot find symbol
+symbol  : class Test
+location: class PuntoTest
+   @Test
+    ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:65: cannot find symbol
+symbol  : class Test
+location: class PuntoTest
+   @Test
+    ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:76: cannot find symbol
+symbol  : class Test
+location: class PuntoTest
+   @Test
+    ^
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/PuntoTest.java:94: cannot find symbol
+symbol  : class Test
+location: class PuntoTest
+   @Test
+    ^
+Standard Doclet version 1.6.0_26
+Building tree for all the packages and classes...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/Angulo.html...
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Angulo.java:57: warning - @param argument "a" is not a parameter name.
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/AnguloTest.html...
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:220: warning - Tag @link: can't find Angulo(double) in Angulo
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/AnguloTest.java:45: warning - Tag @link: can't find equals() in Angulo
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/InterfazPoligonos.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/Poligono.html...
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java:16: warning - @pre is an unknown tag.
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java:27: warning - @pre is an unknown tag.
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java:93: warning - @pre is an unknown tag.
+/home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/Poligono.java:93: warning - @param argument "factor." is not a parameter name.
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/Punto.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/PuntoTest.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/TableroPoligonos.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/package-frame.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/package-summary.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/package-tree.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/constant-values.html...
+Building index for all the packages and classes...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/overview-tree.html...
+Generating /home/mdiaz/MIDR/AHORA/FORMACION/POOB/JAVA/poligono/poligonos/doc/index-all.html...
+32 warnings

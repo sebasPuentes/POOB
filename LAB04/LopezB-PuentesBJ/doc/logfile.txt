@@ -1,0 +1,85 @@
+Project documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-oracle/bin/javadoc
+-sourcepath
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.11.jar:/usr/share/bluej/hamcrest-core-1.3.jar:/usr/share/bluej/lang-stride.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units
+-d
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+Units
+-windowtitle
+Units
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+http://download.oracle.com/javase/8/docs/api/
+domain
+<---- end of javadoc command ---->
+Loading source files for package domain...
+Constructing Javadoc information...
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Unit.java:37: error: cannot find symbol
+    public abstract int credits() throws Plan15Exception;
+                                         ^
+  symbol:   class Plan15Exception
+  location: class Unit
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Unit.java:45: error: cannot find symbol
+    public abstract int inPerson() throws Plan15Exception;
+                                          ^
+  symbol:   class Plan15Exception
+  location: class Unit
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Unit.java:53: error: cannot find symbol
+    public final int independent() throws Plan15Exception{
+                                          ^
+  symbol:   class Plan15Exception
+  location: class Unit
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Unit.java:62: error: cannot find symbol
+    public abstract String data() throws Plan15Exception;
+                                         ^
+  symbol:   class Plan15Exception
+  location: class Unit
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Core.java:35: error: cannot find symbol
+    public int credits() throws Plan15Exception{
+                                ^
+  symbol:   class Plan15Exception
+  location: class Core
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Core.java:41: error: cannot find symbol
+    public int inPerson() throws Plan15Exception{
+                                 ^
+  symbol:   class Plan15Exception
+  location: class Core
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Core.java:53: error: cannot find symbol
+    public int creditsEstimated() throws Plan15Exception{
+                                         ^
+  symbol:   class Plan15Exception
+  location: class Core
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Core.java:64: error: cannot find symbol
+    public int inPersonEstimated() throws Plan15Exception{
+                                          ^
+  symbol:   class Plan15Exception
+  location: class Core
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Core.java:72: error: cannot find symbol
+    public String data() throws Plan15Exception{
+                                ^
+  symbol:   class Plan15Exception
+  location: class Core
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Course.java:25: error: cannot find symbol
+    public int credits() throws Plan15Exception{
+                                ^
+  symbol:   class Plan15Exception
+  location: class Course
+/home/midr/Dropbox/DOCENCIA/POOB-2025-01/JAVA/EXCEPCIONES/Plan15-2025-1/Units/domain/Course.java:34: error: cannot find symbol
+    public int inPerson() throws Plan15Exception{
+                                 ^
+  symbol:   class Plan15Exception
+  location: class Course
